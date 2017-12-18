@@ -20,7 +20,7 @@ const connection = mysql.createConnection({
 connection.connect();
 
 /*
-test de changement
+test de changement parce que j'aime la vie #jcvd
  */
 
 app.set('port', (process.env.PORT || 5000));
