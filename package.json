@@ -1,0 +1,23 @@
+{
+  "name": "Transcode",
+  "version": "0.2.6",
+  "description": "Projet 4MET Jeremy Sofiane Yohav",
+  "engines": {
+    "node": "6.10.2"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "angular": "^1.6.4",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.29",
+    "socket.io": "^2.0.3"
+  },
+  "repository": {},
+  "keywords": [
+    "node",
+    "express"
+  ]
+}
