@@ -1,3 +1,5 @@
 # TranscodeMET-
 salut lisez moi svp
-jpp help me
+
+
+ajout d'un colaborateur ;-)
