@@ -6,19 +6,20 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
-    <a href="home" ><button id="bouton_accueil" class="w3-btn w3-white w3-border w3-round-large w3-right">Accueil</button></a>
+    <div class="w3-center">
+        <div class="w3-container w3-green">
+            <h1>Connexion</h1>
+            <a href="home" ><button id="bouton_accueil" class="w3-btn w3-white w3-hover-blue w3-border w3-round-large w3-right">Accueil</button></a>
+        </div>
+            <form class="w3-container w3-padding-32">
+                <label>Adresse email : </label>
+                <input type="text" /><br>
+                <label>Mot de passe : </label>
+                <input type="text"/><br>
+                <button  type="submit" id="bouton_submit" class="w3-btn w3-green w3-hover-blue w3-border w3-round-large w3-center">Valider</button>
 
-    <div class="w3-container w3-center">
-        <h1>Connexion</h1>
-        <form class="w3-container">
-            <label for="Mail">Adresse email : </label>
-            <input type="text" name="Mail" id="Mail"/><br>
-            <label for="MDP">Mot de passe : </label>
-            <input type="text" name="MDP" id="MDP"/><br>
-            <button  type="submit" id="bouton_submit" class="w3-btn w3-white w3-border w3-round-large w3-center">Valider</button>
-
-        </form>
-        <a href="signup" ><button id="bouton_inscription" class="w3-btn w3-white w3-border w3-round-large w3-center">Inscription</button></a>
+            </form>
+            <a href="signup" ><button id="bouton_inscription" class="w3-btn w3-green w3-hover-blue w3-border w3-round-large w3-center">Inscription</button></a>
     </div>
 
 </body>
