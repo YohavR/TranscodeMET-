@@ -1,8 +1,3 @@
 # TranscodeMET-
-salut lisez moi svp
 
-
-ajout d'un colaborateur ;-)
-
-
-sofiane à rejoint le projet
+Projet de fin d'année M.Sc.1 Supinfo Marseille
