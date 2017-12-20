@@ -17,6 +17,14 @@ module.exports = function(app) {
         res.sendFile(path.join(__dirname + '/../client/views/login.html'));
     });
 
+     router.get('/submit', function(req, res) {
+        res.sendFile(path.join(__dirname + '/../client/views/submit.html'));
+    });
+
+     router.get('/signup', function(req, res) {
+        res.sendFile(path.join(__dirname + '/../client/views/signup.html'));
+    });
+
     app.use(router);
 
 };
